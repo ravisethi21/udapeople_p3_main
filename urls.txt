@@ -1,7 +1,7 @@
 URLs to be updated now.
 
-Public Url to GitHub repository (not private) [URL01 1111]
-https://github.com/PritikaGargArora/udapeople_project3
+Url to GitHub repository [URL01]
+https://github.com/ravisethi21/udapeople_p3_main
 
 Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
 http://udapeople-41b9c33.s3-website-us-west-2.amazonaws.com
