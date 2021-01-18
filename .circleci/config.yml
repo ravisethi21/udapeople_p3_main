@@ -145,7 +145,7 @@ jobs:
       - run:
           name: Ensure back-end infrastructure exists
           command: |
-            aws cloudformation123 deploy \
+            aws cloudformation deploy \
               --template-file .circleci/files/backend.yml \
               --tags project=udacity \
               --stack-name prod-backend-${CIRCLE_WORKFLOW_ID:0:7} \
@@ -153,7 +153,7 @@ jobs:
       - run:
           name: Ensure front-end infrastructure exist
           command: |
-            aws cloudformation123 deploy \
+            aws cloudformation deploy \
               --template-file .circleci/files/frontend.yml \
               --tags project=udacity \
               --stack-name prod-frontend-${CIRCLE_WORKFLOW_ID:0:7} \
@@ -180,7 +180,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["f6:4c:63:0c:99:a3:cc:47:34:77:be:68:7a:00:6f:a7"]
+          fingerprints: ["6a:85:d5:4e:71:17:e7:d9:da:a7:09:74:8d:e9:10:c7"]
       - attach_workspace:
             at: ~/
       - run:
@@ -307,7 +307,7 @@ jobs:
             --query 'Reservations[*].Instances[*].PublicIpAddress' \
             --output text)
             echo ${BACKEND_IP}
-            curl "http://${BACKEND_IP}:3030/api/status"
+            curl "http://${BACKEND_IP}:3038/api/status"
       - destroy-environment:
           workflow_id: ${CIRCLE_WORKFLOW_ID:0:7}
       - revert-migrations
