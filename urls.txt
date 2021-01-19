@@ -3,10 +3,10 @@ URLs for diffrent services/repository/instances
 Url to GitHub repository [URL01]
 https://github.com/ravisethi21/udapeople_p3_main
 
-Public URL for your S3 Bucket [URL02]
+Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
 https://udapeople-1039434.s3.ap-south-1.amazonaws.com/index.html
 
-Public URL for your CloudFront distribution URL[03]
+Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
 http://d2t5myld0ss8tb.cloudfront.net/
 
 Public URLs to deployed application back-end in EC2 [URL04]
