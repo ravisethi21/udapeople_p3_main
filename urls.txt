@@ -1,16 +1,19 @@
-URLs to be updated now.
+URLs for diffrent services/repository/instances
 
 Url to GitHub repository [URL01]
 https://github.com/ravisethi21/udapeople_p3_main
 
-Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-http://udapeople-41b9c33.s3-website-us-west-2.amazonaws.com
+Public URL for your S3 Bucket [URL02]
+https://udapeople-1039434.s3.ap-south-1.amazonaws.com/index.html
 
-Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
-http://d3mdlllz926kes.cloudfront.net/#/employees
+Public URL for your CloudFront distribution URL[03]
+http://d2t5myld0ss8tb.cloudfront.net/
 
 Public URLs to deployed application back-end in EC2 [URL04]
-http://ec2-34-220-96-7.us-west-2.compute.amazonaws.com:3030/api/status
+http://ec2-35-154-182-255.ap-south-1.compute.amazonaws.com:3030/api/status
 
 Public URL to your Prometheus Server [URL05]
-http://ec2-34-220-24-50.us-west-2.compute.amazonaws.com:9090
+http://ec2-13-233-76-63.ap-south-1.compute.amazonaws.com:9090
+
+Prometheus Alert Manager
+http://ec2-13-233-76-63.ap-south-1.compute.amazonaws.com:9093/#/alerts
